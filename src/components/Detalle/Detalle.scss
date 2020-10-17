@@ -1,0 +1,16 @@
+.MovieDetail {
+    img {
+        width: 300px;
+        margin: 10px auto 0;
+        display: block;
+    }
+    .genres {
+        span {
+            background: #6fbab5;
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+    }
+}

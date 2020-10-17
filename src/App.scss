@@ -1,0 +1,33 @@
+.listado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content_detail {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 500px;
+  background: white;
+  height: 100vh;
+  box-shadow: -2px 1px 5px #cfcfcf;
+  padding: 20px;
+  box-sizing: border-box;
+  .close {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: #6fbab5;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+    transition: .5s ease;
+    &:hover{
+      transform: rotate(180deg);
+    }
+  }
+}
